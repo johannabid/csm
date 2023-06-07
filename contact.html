@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact form to get in contact with the Community Science Museum"
+    />
+    <title>Community Science Museum | Contact</title>
+    <link href="css/stylesheet.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/4ac4f05110.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-and-navbar">
+        <div class="logo-header">
+          <img
+            src="/assets/open-science-735787-kopi-removebg-preview.png"
+            alt="Logo - a round green key whole with orbiting lines around - unlock the door to science"
+          />
+          <h1>Community Science Museum</h1>
+        </div>
+
+        <input type="checkbox" id="menu-checkbox" />
+        <div>
+          <label for="menu-checkbox" class="hamburger-icon"
+            ><i class="fa-sharp fa-solid fa-bars"></i
+          ></label>
+        </div>
+        <nav>
+          <div class="hamburger-menu">
+            <a href="/index.html">Home</a>
+
+            <a href="/activities.html">Activities</a>
+
+            <a href="/info.html">Info</a>
+
+            <a class="highlighted-text-nav" href="/contact.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="contact-container">
+      <main>
+        <div class="contact-form-content">
+          <h2>Contact us</h2>
+          <form class="contact-form" method="POST">
+            <label class="select-contactpage" for="name"
+              >I'm asking as a:</label
+            >
+            <select>
+              <option value="Parent">Parent</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Researcher">Researcher</option>
+              <option value="Other">Other</option>
+            </select>
+            <label for="name">Name</label>
+            <input class="contact-box" type="text" id="name" name="name" />
+            <label for="email">Email</label>
+            <input class="contact-box" type="email" id="email" name="email" />
+            <label for="text">Topic</label>
+            <input class="contact-box" type="text" id="text" name="text" />
+            <label for="message">Message</label>
+            <textarea
+              class="contact-box"
+              id="message"
+              name="message"
+            ></textarea>
+
+            <input class="button" type="submit" value="Send" />
+          </form>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <section class="footer-content">
+        <div class="opening-hours">
+          <h4>Opening hours:</h4>
+          <ul class="opening-hours-list">
+            <li>Monday: Closed</li>
+            <li>Tuesday: 10:00 – 16:00</li>
+            <li>Wednesday: 10:00 – 16:00</li>
+            <li>Thursday: 10:00 – 16:00</li>
+            <li>Friday: 10:00 – 19:00</li>
+            <li>Saturday: 9:00 – 16:00</li>
+            <li>Sunday: 9:00 – 13:00</li>
+          </ul>
+        </div>
+        <div class="location-and-logo">
+          <div class="location-address">
+            <h4>Our location:</h4>
+            <p>Community Science Museum</p>
+            <div class="location-address-specific">
+              <p>11 West 51th Street</p>
+              <p>New Holberg City</p>
+              <p>NH 10630</p>
+            </div>
+          </div>
+          <div class="logo-footer">
+            <img
+              class="logo-footer-specific"
+              src="/assets/open-science-735787-kopi-removebg-preview.png"
+              alt="Logo - a round green key whole with orbiting lines around - unlock the door to science"
+            />
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
