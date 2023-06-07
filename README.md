@@ -35,3 +35,7 @@ No contributions have been added to the school project.
 Mail: johbid49375@stud.noroff.no
 
 [My LinkedIn page](https://www.linkedin.com/in/jobi-063354249/)
+
+## Acknowledgments
+
+https://noroff-content.gitlab.io/feu/html-css/navigation.html
